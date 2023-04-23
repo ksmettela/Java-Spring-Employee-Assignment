@@ -9,14 +9,6 @@ Before getting started, make sure the following are existing:
 - An Integrated Development Environment (IDE) such as IntelliJ IDEA or Eclipse for Java development.
 - Basic knowledge of Java programming and the Spring framework.
 
-## Project Structure
-The project follows the standard Maven project structure and-  includes the following components- - - :
-
-- `src/main/java`: Contains Java classes for the employee database system, including controllers, services, and data models.
-- `src/main/resources`: Contains configuration files, such as application.properties, for configuring the Spring application.
-- `src/test`: Contains unit and integration tests for the project.
-- `pom.xml`: Contains Maven configuration for managing project dependencies and build settings.
-
 ## Setup
 Follow the steps below to set up and run the employee database system:
 
@@ -24,7 +16,6 @@ Follow the steps below to set up and run the employee database system:
 - Import the project into IDE as a Maven project.
 - Update the application.properties file with the appropriate database configuration, such as the database URL, username, password, and driver class name.
 - Run the project as a Spring Boot application in IDE or using the Maven `spring-boot:run` command.
-- The application will start and be accessible at the configured base URL (e.g., `http://localhost:8080`).
 
 ## Usage
 Once the employee database system is up and running, can use RESTful API endpoints to perform CRUD operations on the employee data. The following endpoints are available:
